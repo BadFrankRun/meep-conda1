@@ -1,5 +1,4 @@
 FROM ubuntu:14.04
-MAINTAINER Abhejit Rajagopal <rajagopal.abhejit@gmail.com>
 
 RUN apt-get update && \
 apt-get install -y wget vim git tcl && \
